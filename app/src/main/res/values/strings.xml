@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Gamix</string>
+
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+
+    <string name="new_here">New here?</string>
+    <string name="old_here">Already have an account?</string>
+    <string name="sign_txt">Login here</string>
+    <string name="login_txt">Signup here</string>
+    <string name="enter_button">Enter</string>
+    <string name="back_button">Back</string>
+
+    <string name="username">Username</string>
+    <string name="email">Email ID</string>
+    <string name="password">Password</string>
+</resources>

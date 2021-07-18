@@ -1,0 +1,2 @@
+rootProject.name = "Gamix"
+include ':app'
