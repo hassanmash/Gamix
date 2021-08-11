@@ -20,6 +20,7 @@ The app includes all the basics of java as a beginner, which includes: Login pag
 
 <!-- ![image](https://user-images.githubusercontent.com/61452898/129076327-fe922944-82fc-43ec-a70f-913d977c929a.png) -->
 <img src="https://user-images.githubusercontent.com/61452898/129076327-fe922944-82fc-43ec-a70f-913d977c929a.png" width="300"> 
+
 ### When the details is clicked:-
 
 <!-- ![image](https://user-images.githubusercontent.com/61452898/129077878-69ddda34-e454-458c-af37-4ebb1a7c77d9.png) -->
