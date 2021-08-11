@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bluebg"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:background="#55777777"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/textButton"
+            android:textSize="20sp"
+            android:text="@string/app_name"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/logOut"
+            android:text="@string/logout"
+            android:layout_marginStart="180dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="180dp" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/gameText"
+        android:text="@string/gamename"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_small"
+        android:backgroundTint="#FFFDD0"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/rounded_small"
+        android:backgroundTint="#FFFDD0"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:text="@string/reqs"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/reqText"
+            android:text="@string/reqs1"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/rounded_small"
+        android:backgroundTint="#FFFDD0"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:text="@string/genre"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/genreText"
+            android:text="@string/genre1"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/rounded_small"
+        android:backgroundTint="#FFFDD0"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:text="@string/website"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/webText"
+            android:text="@string/website1"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/goBackBtn"
+        android:layout_gravity="end"
+        android:text="@string/goBack"
+        android:textColor="@color/black"
+        android:layout_marginTop="80dp"
+        app:backgroundTint="#FFFDD0"
+        android:background="@drawable/rounded_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

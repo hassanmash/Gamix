@@ -47,6 +47,13 @@ public class MainActivity extends AppCompatActivity {
         myDb = new MyDatabase(MainActivity.this);   //Initialise database
         myDb.addSetting("abcd@mail.com","admin","adminpass");
 
+//        String usrname = "admin";
+//        Intent i = new Intent(MainActivity.this,GameList.class);
+//        Bundle b = new Bundle();
+//        b.putString("userName",usrname);
+//        i.putExtras(b);
+//        startActivity(i);
+
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

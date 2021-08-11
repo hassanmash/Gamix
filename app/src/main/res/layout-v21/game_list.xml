@@ -1,7 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<ScrollView android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/bluebg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:background="#55777777"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/textButton"
+            android:textSize="20sp"
+            android:text="@string/app_name"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/logOut"
+            android:text="@string/logout"
+            android:layout_marginStart="180dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="50dp"
+        android:text="@string/cod"
+        android:id="@+id/cod"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corners"
+        android:layout_width="250dp"
+        app:backgroundTint="#FFFDD0"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="30dp"
+        android:text="@string/val"
+        android:id="@+id/val"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corners"
+        android:layout_width="250dp"
+        app:backgroundTint="#FFFDD0"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/csgo"
+        android:text="@string/csgo"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corners"
+        app:backgroundTint="#FFFDD0"
+        android:textColor="@color/black"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="30dp"
+        android:text="@string/amngus"
+        android:id="@+id/amngus"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corners"
+        android:layout_width="250dp"
+        app:backgroundTint="#FFFDD0"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="30dp"
+        android:text="@string/mine"
+        android:id="@+id/mine"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corners"
+        app:backgroundTint="#FFFDD0"
+        android:textColor="@color/black"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="30dp"
+        android:text="@string/gta5"
+        android:id="@+id/gta5"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corners"
+        app:backgroundTint="#FFFDD0"
+        android:textColor="@color/black"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="30dp"
+        android:text="@string/fifa"
+        android:id="@+id/fifa"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corners"
+        app:backgroundTint="#FFFDD0"
+        android:textColor="@color/black"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="30dp"
+        android:text="@string/pes"
+        android:id="@+id/pes"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corners"
+        app:backgroundTint="#FFFDD0"
+        android:textColor="@color/black"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="30dp"
+        android:text="@string/re"
+        android:id="@+id/re"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corners"
+        app:backgroundTint="#FFFDD0"
+        android:textColor="@color/black"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="30dp"
+        android:text="@string/nfs"
+        android:id="@+id/nfs"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corners"
+        app:backgroundTint="#FFFDD0"
+        android:textColor="@color/black"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
+</ScrollView>

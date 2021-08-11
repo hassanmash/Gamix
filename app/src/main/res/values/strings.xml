@@ -14,4 +14,30 @@
     <string name="username">Username</string>
     <string name="email">Email ID</string>
     <string name="password">Password</string>
+
+    <string name="logout">Log Out</string>
+
+    <string name="csgo">Counter Strike GO</string>
+    <string name="val">Valorant</string>
+    <string name="amngus">Among Us</string>
+    <string name="gta5">Grand Theft Auto V</string>
+    <string name="nfs">Need For Speed Heat</string>
+    <string name="fifa">FIFA 20</string>
+    <string name="pes">PES 2020</string>
+    <string name="mine">Minecraft</string>
+    <string name="re">Resident Evil VIII</string>
+    <string name="cod">Call Of Duty Black Ops Cold War</string>
+
+    <string name="gamename">Game Name here</string>
+    <string name="reqs">Requirements:</string>
+    <string name="reqs1">Requirements here will go!
+        Requirements here will go!
+        Requirements here will go!
+        Requirements here will go!
+        Requirements here will go!</string>
+    <string name="genre">Genre:</string>
+    <string name="genre1">Genre will go here</string>
+    <string name="website">Website:</string>
+    <string name="website1">Website will go here</string>
+    <string name="goBack">Go Back</string>
 </resources>
