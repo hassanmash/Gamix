@@ -5,7 +5,7 @@
 1. [Hassan Mashmoom](https://github.com/hassanmash)
 2. [Mohammed Shahan](https://github.com/MoShahan)
 3. [Sheikh Ziad](https://github.com/sheikhziad)
-4. Salman Farisi
+4. [Salman Farisi](https://github.com/iamsalmanfarisi)
 
 This is an Android App which gives the game details. This was created as a part of mini project of our 6th sem MAD (Mobile Application Development) Lab subject.
 The app includes all the basics of java as a beginner, which includes: Login page, Database operations(Insert, Select), etc...
